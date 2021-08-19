@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forms Review</title>
-</head>
-<body>
-  <h1>Forms</h1>
-  <!--O atributo action define para onde vai os dados do form,
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Review</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <!--O atributo action define para onde vai os dados do form,
   enquanto o atributo method especifica o modo como serão enviados.-->
-  <form action="" method="">
-    <div>
-      <label for="text-area">Enter a text: </label>
-      <input type="text" placeholder="text placeholder" id="text-area">
-    </div>
-    <div>
-      <label for="password-area">Enter a password: </label>
-      <input type="password" placeholder="password input" id="password-area">
-    </div>
-    <div>
-      <label for="color-area">Select a color: </label>
-      <input type="color" id="color-area">
-    </div>
-    <div>
-      <label for="file-area">Pick a file: </label>
-      <input type="file" id="file-area">
-    </div>
-    <div>
-      <label for="range-area">Choose: </label>
-      <input type="range" id="range-area">
-    </div>
-    <div>
-      <label for="number-area">Enter a number: </label>
-      <input type="number" placeholder="number">
-    </div>
-  </form>
-
-</body>
+    <form action="http://google.com/" method="">
+      <div>
+        <label for="text-area">Enter a text: </label>
+        <input type="text" placeholder="text placeholder" id="text-area" />
+      </div>
+      <div>
+        <label for="password-area">Enter a password: </label>
+        <input
+          type="password"
+          placeholder="password input"
+          id="password-area"
+        />
+      </div>
+      <div>
+        <label for="color-area">Select a color: </label>
+        <input type="color" id="color-area" />
+      </div>
+      <div>
+        <label for="file-area">Pick a file: </label>
+        <input type="file" id="file-area" />
+      </div>
+      <div>
+        <label for="range-area">Choose: </label>
+        <input type="range" id="range-area" />
+      </div>
+      <div>
+        <label for="number-area">Enter a number: </label>
+        <input type="number" placeholder="number" />
+      </div>
+      <div>
+        <button>This btn submit</button>
+        <button type="button">This btn don't submit</button>
+        <input type="submit" value="Input button" />
+      </div>
+    </form>
+    <hr />
+    <button>This btn don't submit</button>
+  </body>
 </html>
