@@ -10,7 +10,7 @@
     <h1>Forms</h1>
     <!--O atributo action define para onde vai os dados do form,
   enquanto o atributo method especifica o modo como serão enviados.-->
-    <form action="http://google.com/" method="">
+    <form action="http://google.com/search" method="GET">
       <div>
         <label for="text-area">Enter a text: </label>
         <input type="text" placeholder="text placeholder" id="text-area" />
@@ -47,5 +47,22 @@
     </form>
     <hr />
     <button>This btn don't submit</button>
+    <hr />
+    <h1>Search Websites</h1>
+    <form action="http://google.com/search" method="GET">
+      <label for="google">Google Search: </label>
+      <input type="text" id="google" name="q" />
+      <button type="submit">Search</button>
+    </form>
+    <form action="http://reddit.com/search" method="GET">
+      <label for="reddit">Search Reddit: </label>
+      <input type="text" name="q" id="reddit" />
+      <button type="submit">Search Reddit</button>
+    </form>
+    <form action="https://www.youtube.com/results" method="GET">
+      <label for="youtube">Search Youtube</label>
+      <input type="text" name="search_query" id="youtube" />
+      <button type="submit">Search</button>
+    </form>
   </body>
 </html>
