@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="trybewarts.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form action="" id="evaluation-form">
+        <h2>Forms</h2>
+        <div class="name-lastname">
+          <input type="text" placeholder="Nome" id="input-name" />
+          <input type="text" placeholder="Sobrenome" id="input-lastname" />
+        </div>
+        <div class="email-house">
+          <input type="text" placeholder="Email" id="input-email" />
+          <label for="casa-select">Casa: </label>
+          <select name="casa-select" id="house">
+            <option value="" id="gitnoria-house">Gitnória</option>
+            <option value="" id="reactpuff-house">Reactpuff</option>
+            <option value="" id="corvinode-house">Corvinode</option>
+            <option value="" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
+
+        <div class="family-tech">
+          <div class="family-item">
+            <label for="" id="label-family">Qual sua família?</label>
+            <div>
+              <input
+                type="radio"
+                name="family"
+                id="frontend"
+                value="Frontend"
+              />
+              <label for="frontend">Frontend</label>
+            </div>
+            <div>
+              <input type="radio" name="family" id="backend" value="Backend" />
+              <label for="backend">Backend</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="family"
+                id="fullstack"
+                value="Fullstack"
+              />
+              <label for="fullstack">Fullstack</label>
+            </div>
+          </div>
+          <div class="tech-item"></div>
+        </div>
+      </form>
+      <img
+        src="images/trybewarts-colored.svg"
+        alt=""
+        id="trybewarts-forms-logo"
+      />
+    </main>
+    <footer></footer>
+  </body>
+</html>
