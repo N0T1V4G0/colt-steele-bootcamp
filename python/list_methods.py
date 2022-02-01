@@ -13,4 +13,13 @@ print(my_stupid_list) # [1, 2, 3, 4, 5, 6, 7, 2]
 print(first_item) # 'Oieeee'
 last_item = my_stupid_list.pop()
 print(my_stupid_list) # [1, 2, 3, 4, 5, 6, 7]
-print(last_item) # 2
+# print(last_item) # 2
+
+outra_lista = [1,2,3,4,1,2,3,7,8,2]
+
+for number in outra_lista:
+  while number in outra_lista:
+    print(number)
+    outra_lista.remove(number)
+
+print(outra_lista) # [4, 7, 8]

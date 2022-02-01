@@ -1,4 +1,4 @@
-my_list = [1, 'oi', False, [], 'shit', 2000];
+my_list = [1, 'oi', False, [], 'shit', 2000]
 
 for list_item in range(len(my_list)):
     print(my_list[list_item])
